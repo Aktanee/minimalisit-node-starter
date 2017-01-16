@@ -1,0 +1,24 @@
+{
+  "name": "backpack-examples-with-custom-babel-config",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack build && backpack dev",
+    "build": "backpack build",
+    "postinstall": "backpack build",
+    "test": "node_modules/mocha/bin/mocha --recursive ./src/tests"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.16.0",
+    "backpack-core": "0.0.7",
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0"
+  }
+}
